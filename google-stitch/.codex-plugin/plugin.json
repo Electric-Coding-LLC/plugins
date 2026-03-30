@@ -1,0 +1,41 @@
+{
+  "name": "google-stitch",
+  "version": "0.1.0",
+  "description": "Community-maintained Codex plugin for the hosted Google Stitch MCP server. Unofficial and provided as-is.",
+  "author": {
+    "name": "Electric Coding LLC",
+    "url": "https://github.com/Electric-Coding-LLC"
+  },
+  "homepage": "https://stitch.withgoogle.com/docs/mcp/setup",
+  "repository": "https://github.com/Electric-Coding-LLC/plugins/tree/main/google-stitch",
+  "license": "Apache-2.0",
+  "keywords": [
+    "google",
+    "stitch",
+    "design",
+    "ui",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Google Stitch",
+    "shortDescription": "Community plugin for Google's hosted Stitch MCP server",
+    "longDescription": "Community-maintained Codex plugin for Google's hosted Stitch MCP server. This project is not affiliated with, endorsed by, or supported by Google, and is provided as-is. Use it to inspect Stitch projects and work with Stitch-generated design assets through the hosted API.",
+    "developerName": "Electric Coding LLC",
+    "category": "Design",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://stitch.withgoogle.com/",
+    "privacyPolicyURL": "https://stitch.withgoogle.com/privacy",
+    "termsOfServiceURL": "https://policies.google.com/terms",
+    "defaultPrompt": [
+      "List my Stitch projects",
+      "Show screens in this Stitch project",
+      "Generate a Stitch screen from this prompt"
+    ],
+    "brandColor": "#4285F4",
+    "screenshots": []
+  }
+}

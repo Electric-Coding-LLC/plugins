@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "stitch": {
+      "type": "http",
+      "url": "https://stitch.googleapis.com/mcp",
+      "headers": {
+        "X-Goog-Api-Key": "YOUR_API_KEY"
+      },
+      "timeout": 300000,
+      "note": "Official Google Stitch MCP server. Replace YOUR_API_KEY with a key created in Stitch Settings > API Keys."
+    }
+  }
+}
