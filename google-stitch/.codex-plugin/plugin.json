@@ -8,7 +8,7 @@
   },
   "homepage": "https://stitch.withgoogle.com/docs/mcp/setup",
   "repository": "https://github.com/Electric-Coding-LLC/plugins/tree/main/google-stitch",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "keywords": [
     "google",
     "stitch",
